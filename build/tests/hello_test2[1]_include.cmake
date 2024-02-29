@@ -1,0 +1,5 @@
+if(EXISTS "/home/vasilina/Загрузки/Project/build/tests/hello_test2[1]_tests.cmake")
+  include("/home/vasilina/Загрузки/Project/build/tests/hello_test2[1]_tests.cmake")
+else()
+  add_test(hello_test2_NOT_BUILT hello_test2_NOT_BUILT)
+endif()
